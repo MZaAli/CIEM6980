@@ -1,0 +1,32 @@
+Device name : Cobra 306
+Device type : Four-hole Cobra Probe
+Device ID : 306
+
+First sample date : 01-Ò»ÔÂ-08
+First sample time : 01:20:05.609
+
+Sampling time (s) : 60.416
+Number of samples : 30,208
+Number of good samples : 16,280 (53.9%)
+Data output rate (Hz) : 500.0
+Output block size : 256
+Mean temperature (¡ãC) : 15.0
+Barometric pressure (Pa) : 101,324.7
+Mean reference pressure : 0.0
+
+Mean flow speed, pitch angle, yaw angle and Pstatic (m/s, ¡ã and Pa) :
+	0.557	2.0	-4.3	-0.1
+Mean U, V and W (m/s) :
+	0.505	-0.0370	0.0177
+Minimum and maximum velocites (m/s) :
+	0.131	1.14
+
+Turbulence intensities - overall, Iuu, Ivv, Iww ( % ) :
+	28.7	31.1	27.2	27.7
+
+Reynolds normal stresses - Ruu, Rvv, Rww (Pa) :
+	-0.0368	-0.0280	-0.0290
+Reynolds shear stresses - Ruv, Ruw, Rvw (Pa) :
+	-0.000863	-0.00132	-0.0000815
+
+Please refer to the User's Guide for definitions of terms.

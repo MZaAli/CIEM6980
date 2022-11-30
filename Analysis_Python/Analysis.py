@@ -28,3 +28,7 @@ for interval in Wind_Speed:
 
 
 Results.plot(x="Wind Speed (m/s)", y=["Fx (kN)", "Myy (kNm)", "d2 (mm)", "d3 (mm)"])
+
+Results_10 = Results.loc[Results['Wind Speed (m/s)'] == 10]
+
+Results_10.plot(x="Wind Speed (m/s)", y=["Fx (kN)"])

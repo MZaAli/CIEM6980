@@ -1,0 +1,3 @@
+00XX代表在X.X Hz的电压驱动下的数据
+
+0001_X中X对应的1代表alongwind displacement，2代表crosswind displacement
