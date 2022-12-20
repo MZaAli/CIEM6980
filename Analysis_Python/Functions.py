@@ -11,8 +11,8 @@ import numpy as np
 
 myPath = os.getcwd()
 
-def Get_data_column(Subject, Wind_speed, Columns, Headers):
-    f_path = myPath[:-16] + "\\Wind_Tunnel_Test_Resuls\\" + Subject + "\\00" + Wind_speed + ".csv"
+def Get_data_column(Set, Subject, Wind_speed, Columns, Headers):
+    f_path = myPath[:-16] + "\\Wind_Tunnel_Test_Resuls\\" + Set + "\\" + Subject + "\\00" + Wind_speed + ".csv"
     print (f_path)
     #df = pd.read_csv(f_path, usecols= Column)
     df = pd.read_csv(f_path, usecols= Columns, names=Headers)
